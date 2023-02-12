@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+.main{
+    margin:60px auto ;
+    text-align: center;
+}
+input{
+    width: 22rem;
+    height: 2.2rem;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+button{
+    width: 5.5rem;
+    height: 2rem;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(11, 45, 180);
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: rgb(72, 249, 72);
+    color: white;
+}
+.box2{
+    margin: 3rem auto;
+    background-color: white;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 25px;
+}
+.logo{
+    font-size: 4.5rem;
+    margin: 2.5rem auto;
+    color: black;
+}
+.section2{
+    display: flex;
+}
+.black{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 27rem;
+    height: 8rem;
+    align-items: center;
+}
+.black1{
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+.weather{
+    text-align: center;
+    font-size: 2rem;
+}
+.blue{
+    
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    justify-content: center;
+    width: 13rem;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(0, 183, 183);
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+}
+.data{
+    display: flex;
+    justify-content:space-between;
+    font-size: 1rem;
+    margin: 1.7rem auto;
+}
+i{
+    color: rgb(0, 183, 183);;
+}
